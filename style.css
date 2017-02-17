@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Bahiana|Bangers|Carter+One|Caveat+Brush|Patrick+Hand|Permanent+Marker');
+body { 
+    width: 1200px;
+    background-image: url("http://wallpapercave.com/wp/4W2pw5V.jpg");
+    background-size: cover;
+    list-style-type: none;
+    /*font-family: 'Bahiana', cursive;
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Arvo', serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Carter One', cursive;*/
+}
+.row:beforem row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+#glowna {
+    border-radius: 5%;
+    font-size: 35px;
+    padding: 20px 0px;
+    width: 550px;
+}
+#search, #nazwa-miasta {
+    font-size: 20px;
+    margin: 20px 0px;   
+    border: 2px solid rgba(43, 38, 38, 0.5);
+}
+#nazwa-miasta:focus {
+    color: orange;
+}
+#town {
+    width: 1100px;
+    border-radius: 3%;
+}
+#top {
+    margin: 25px;
+    padding-top: 20px;
+}
+#nazwa {
+    font-size: 45px;
+    padding-bottom: 50px; 
+}
+.wartosc {
+    width: 220px;
+    margin-left: 70px;
+}
+.prawa {
+    width: 255px;
+}
+#info, #pic {
+    width: 50%;
+}
+#pic img {
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 29%;
+}
+#zegarek {
+    font-size: 18px;
+    max-height: 400px;
+    margin-top: 240px;
+    padding-bottom: 20px;
+}
+.zegar {
+    width: 500px;
+    padding: 50px 0px;
+}
+
+
+body, #glowna, #town, .zegar {
+    margin: 0 auto;
+}
+body, .wartosc, .prawa {
+    text-align: center;
+}
+body, #search, #nazwa-miasta {
+    font-family: 'Caveat Brush', cursive;
+}
+body, #search:hover {
+    color: white;
+}
+#glowna, #nawa-miasta, #nazwa {
+    font-weight: bold;
+}
+#glowna, #search, #nazwa-miasta, #top, #nazwa {
+    text-transform: uppercase;
+}
+#glowna, #search:hover, #town {
+    background-color: rgba(43, 38, 38, 0.5);
+}
+#glowna, #town {
+    margin-top: 50px;
+}
+#search, #nazwa-miasta, #pic img {
+    padding: 10px;
+}
+#top, #info {
+    font-size: 28px;
+}
+#info, .wartosc, .prawa, #pic {
+    float: left;
+}
+.wartosc, .prawa {
+    margin-top: 5px;
+}
