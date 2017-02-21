@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Bahiana|Bangers|Carter+One|Caveat+Brush|Patrick+Hand|Permanent+Marker');
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
 body { 
     width: 1200px;
     background-image: url("http://wallpapercave.com/wp/4W2pw5V.jpg");
@@ -23,13 +24,56 @@ body {
     padding: 20px 0px;
     width: 550px;
 }
+#nazwa-miasta {
+    padding: 11px 10px 11px 10px;
+}
 #search, #nazwa-miasta {
     font-size: 20px;
     margin: 20px 0px;   
     border: 2px solid rgba(43, 38, 38, 0.5);
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
+
+.btn-info {
+    color: #ffffff;
+    background-color: #5bc0de;
+    border-color: transparent;
+}
+.btn-info.focus {
+    color: #ffffff;
+    background-color: #31b0d5;
+    border-color: rgba(0, 0, 0, 0);
+}
+.btn-info:hover {
+    color: #ffffff;
+    background-color: #31b0d5;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 16px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #nazwa-miasta:focus {
-    color: orange;
+    color: black;
 }
 #town {
     width: 1100px;
@@ -76,7 +120,7 @@ body, #glowna, #town, .zegar {
 body, .wartosc, .prawa {
     text-align: center;
 }
-body, #search, #nazwa-miasta {
+body {
     font-family: 'Caveat Brush', cursive;
 }
 body, #search:hover {
@@ -88,13 +132,13 @@ body, #search:hover {
 #glowna, #search, #nazwa-miasta, #top, #nazwa {
     text-transform: uppercase;
 }
-#glowna, #search:hover, #town {
+#glowna, #town {
     background-color: rgba(43, 38, 38, 0.5);
 }
 #glowna, #town {
     margin-top: 50px;
 }
-#search, #nazwa-miasta, #pic img {
+#search, #pic img {
     padding: 10px;
 }
 #top, #info {
