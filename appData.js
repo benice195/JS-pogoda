@@ -55,7 +55,7 @@ function pokazMiasto(resp) {
 
     if (mias.weather[0].icon === "01d") {
             $("#pic").append("<img src='png/sun.png'></img>");
-            $("body").css('background-image', 'url("background/pogodnydzien.jpg")');
+            $("body").css('background-image', 'url("background/pogodnydzien.JPG")');
     } else if (mias.weather[0].icon === "01n") {
             $("#pic").append("<img src='png/moon.png'></img>");
             $("body").css('background-image', 'url("background/pogodnanoc.jpg")');
